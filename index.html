@@ -143,22 +143,24 @@
       <section>
         <!--tea presented section  -->
         <div class="lg:flex gap-8 py-4">
-          <div class="grid lg:w-2/4 lg:grid-cols-2 gap-2">
+          <div class="grid lg:w-2/4 lg:grid-cols-2 grid-cols-1 gap-2">
             <div class="flex-col gap-2">
               <div
-                class="rounded-lg p-12 mb-4 bg-gradient-to-r from-red-100 to-white"
+                class="rounded-lg h-28 mb-4 bg-gradient-to-r from-red-100 to-white"
               ></div>
-              <div class="rounded-lg bg-zinc-200 p-4 flex justify-center">
-                <img src="images/fresh-1.png" alt="" />
+              <div
+                class="rounded-lg grid-rows-2 bg-zinc-200 p-4 flex justify-center"
+              >
+                <img class="mx-auto my-5" src="images/fresh-1.png" alt="" />
               </div>
             </div>
             <div class="flex-col">
               <div class="rounded-lg bg-orange-100 p-4 flex justify-center">
-                <img src="images/fresh-2.png" alt="" />
+                <img class="mx-auto my-4" src="images/fresh-2.png" alt="" />
               </div>
 
               <div
-                class="rounded-lg p-12 mt-4 bg-gradient-to-r from-zinc-200 to-white"
+                class="rounded-lg h-28 mt-4 bg-gradient-to-r from-zinc-200 to-white"
               ></div>
             </div>
           </div>
@@ -195,14 +197,12 @@
         </div>
       </section>
       <section
-        class="bg-gradient-to-r flex from-orange-500 gap-4 to-red-500 py-8 px-4 rounded-lg mt-8"
+        class="bg-gradient-to-r from-orange-500 gap-8 to-red-500 py-10 px-7 lg:px-16 rounded-lg mt-32 mb-32 grid grid-cols-1 lg:grid-cols-2"
       >
         <!-- super clients -->
-        <div
-          class="relative lg:w-2/4 px-8 py-4 flex flex-col justify-end items-start"
-        >
-          <div class="absolute">
-            <h1 class="text-5xl font-semibold text-white leading-normal">
+        <div class="relative h-full mb-4 px-8 py-4 flex flex-col justify-end items-start">
+          <div class="absolute h-full flex flex-col justify-center mt-4">
+            <h1 class="text-5xl font-semibold  text-white leading-normal">
               Meet Our Super Clients
             </h1>
             <p class="lg:text-base text-white">
@@ -212,56 +212,53 @@
               slightly believable.
             </p>
             <button
-              class="rounded-lg bg-white text-orange-500 text-base capitalize font-bold px-10 mt-4 py-4"
+              class="rounded-lg bg-white text-orange-500 text-base capitalize font-bold px-6 mt-4 w-2/4 py-4"
             >
               show <span class="text-red-500">all</span>
             </button>
           </div>
-          <img class="ml-8 -mb-20" src="images/bg_cup.png" alt="" />
+          <img class="ml-8 h-full -mb-20" src="images/bg_cup.png" alt="" />
         </div>
         <!-- cards -->
-        <div class="lg:w-2/4 relative p-8 gap-4">
-          <div class="">
-            <div class="opacity-25 rounded-lg mt-4 mb-4 bg-white p-4">
-              <img
-                class="-mt-8 bg-white rounded-full p-1 -ml-8"
-                src="images/client.png"
-                alt=""
-              />
-              <p class="">
-                We are providing the best and suitable home insurance services
-                for the people who are interested to treatment
-              </p>
-              <h3 class="">Ilham Yuda</h3>
-              <p class="">Businessman</p>
-            </div>
-            <div class="opacity-25 rounded-lg mt-12  bg-white p-4">
-              <img
-                class="-mt-8 bg-white rounded-full p-1 -ml-8"
-                src="images/client.png"
-                alt=""
-              />
-              <p class="">
-                We are providing the best and suitable home insurance services
-                for the people who are interested to treatment
-              </p>
-              <h3 class="">Ilham Yuda</h3>
-              <p class="">Businessman</p>
-            </div>
-          </div>
-
-          <div class="absolute rounded-lg bg-white p-4 opacity-100">
+        <div class="relative lg:px-4 gap-4 mt-20 lg:mt-0 ">
+          <div class="opacity-25 rounded-lg mt-4 mb-4 bg-white lg:ml-32 ml-20 w-3/4 p-4">
             <img
               class="-mt-8 bg-white rounded-full p-1 -ml-8"
               src="images/client.png"
               alt=""
             />
-            <p class="">
+            <p class="text-gray-500">
               We are providing the best and suitable home insurance services for
               the people who are interested to treatment
             </p>
-            <h3 class="">Ilham Yuda</h3>
-            <p class="">Businessman</p>
+            <h3 class="text-xl font-semibold mt-6">Ilham Yuda</h3>
+            <p class="text-gray-500">Businessman</p>
+          </div>
+          <div class="absolute opacity-100 rounded-lg bg-white p-8 lg:-ml-2 -mt-20  w-3/4 z-10 ">
+            <img
+              class="-mt-12 bg-white rounded-full p-1 -ml-12"
+              src="images/client.png"
+              alt=""
+            />
+            <p class="text-gray-500 ">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h3 class="text-xl font-semibold mt-6">Ilham Yuda</h3>
+            <p class="text-gray-500">Businessman</p>
+          </div>
+          <div class="opacity-25 rounded-lg mt-12 bg-white lg:ml-32 ml-20  w-3/4  p-4">
+            <img
+              class="-mt-8 bg-white rounded-full p-1 -ml-8"
+              src="images/client.png"
+              alt=""
+            />
+            <p class="text-gray-500">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h3 class="text-xl font-semibold mt-6">Ilham Yuda</h3>
+            <p class="text-gray-500">Businessman</p>
           </div>
         </div>
       </section>
